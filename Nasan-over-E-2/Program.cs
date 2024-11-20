@@ -1,9 +1,9 @@
-﻿string [] sak = ["Glas", "Platta", "Träd", "Fluga", "Fågel"];
+﻿// string [] sak = ["Glas", "Platta", "Träd", "Fluga", "Fågel"];
 
 
 
 
-// new string [6];
+// string[] sak = new string [6];
 // sak[1] = "Glas";
 // sak[2] = "Platta";
 // sak[3] = "Träd";
@@ -14,4 +14,13 @@
 // {
 //     Console.WriteLine( sak[i] ); 
 // }
+
+// string [] sak = ["Sandor", "Calin", "Edvin", "Gustav", "Alex-Ovidiu"];
+
+
+// List<int> nummer = [5, 7, 1, 9, 6];
+
+
+
+
 Console.ReadLine();
