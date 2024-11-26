@@ -20,7 +20,28 @@
 
 // List<int> nummer = [5, 7, 1, 9, 6];
 
+// string [] nummer = ["1", "2", "3", "4", "5"];
 
+// string[] sak = ["Glas", "Platta", "Träd", "Fluga", "Fågel"];
+
+// string [] namn = ["Sandor", "Calin", "Edvin", "Gustav", "Alex-Ovidiu"];
+
+// for (int i = 0; i < sak.Length; i++)
+// {
+//     Console.WriteLine( $"{namn[i]} ger {sak[i]} betyget {nummer[i]}"); 
+// }
+
+List<string> cities = [];
+string exit =  "";
+while (exit != "exit")
+{
+    exit = Console.ReadLine(); 
+    if (exit != "exit") cities.Add(exit);
+}
+for (int repeat = 0; repeat < cities.Count; repeat++)
+{
+    Console.WriteLine(cities[repeat]);
+}
 
 
 Console.ReadLine();
